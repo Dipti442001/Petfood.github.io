@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(236, 207, 43)
+}
+header .text{
+    font-weight: 200;
+   
+}
+header .text h1{
+    font-family: cursive;
+}
+div.gallery {
+  border: 1px solid #ccc;
+  padding: 10px;
+  row-gap: 10px;
+  margin: 10px;
+  
+  }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 90%;
+  height: 300px;
+  padding: 10px;
+  padding-top: 10px;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="text">
+        <h1>Our Products</h1>
+    </div>
+</header>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Pro1.jpg">
+      <img src="Pro1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b>Pedigree Dry Puppy Meat and Milk</b><br>
+        Pedigree puppy food with Meat & Milk for Puppy is a wholesome meal, packed with essential nutrients ...</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Pro2.png">
+      <img src="Pro2.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><b>Pedigree Puppy Chicken and Milk</b><br>
+        Pedigree Chicken & Milk for Puppy is a wholesome meal, packed with essential nutrients vital to the ...</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Pro3.jpg">
+      <img src="Pro3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><b>Pedigree Gravy Puppy Chicken Chunks<</b><br>
+        Pedigree Gravy puppy dog food is 100% complete and balanced. Easy to feed, it consists of high-quali...</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Pro4.jpg">
+      <img src="Pro4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><b>Pedigree Professional Starter Mother and Pup</b><br>
+        Pedigree Professional Range dog food fulfills the special needs of your dog. The range provides expe..</div>
+  </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Pro5.jpg">
+        <img src="Pro5.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc"><b>Pedigree Professional Large Breed Puppy Food</b><br>
+        Pedigree Professional Range puppy dog food fulfils the special needs of your dog. The range provides...</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Pro6.jpg">
+        <img src="Pro6.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc"><b>Pedigree Gravy Puppy Chicken and Liver Chunks Flavor with Vegetables</b><br>
+        100% complete and balanced, the Pedigree Gravy range is available in five variants. Easy to feed, it...</div>
+    </div>
+  </div>
+</body>
+</html>
